@@ -1,9 +1,8 @@
 FROM ubuntu:latest
-RUN apt-get update && apt-get install -y nodejs npm
-RUN npm install -g nodemon
+RUN apt-get update 
+RUN apt-get install -y nodejs npm
 WORKDIR /app
 COPY . .
-RUN npm install
 EXPOSE 80
-CMD ["nodemon", "your-server-file.js"]
+CMD ["echo", "Hello World"]
 
