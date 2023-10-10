@@ -16,6 +16,11 @@ RUN apt install nodejs=18
 RUN apt install npm=10.2.0
 
 #
+# Set alias 
+#
+alias install='npm install'
+
+#
 # Expose port 8080
 #
 EXPOSE 8080
