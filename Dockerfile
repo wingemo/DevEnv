@@ -1,5 +1,5 @@
 #
-# Development Environment Ubuntu - NodeJs
+# Development Environment Ubuntu - NodeJS
 # @author Philip Wingemo 
 #
 FROM ubuntu:20.04
@@ -12,7 +12,8 @@ RUN apt-get update
 #
 # Install packages
 #
-RUN apt install bash-completion
+RUN apt install nodejs=18
+RUN apt install npm=10.2.0
 
 # Expose port 80
 EXPOSE 80
