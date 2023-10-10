@@ -1,5 +1,6 @@
 #
 # Development Environment - Ubuntu & NodeJS
+# @version 20.18
 # @author Philip Wingemo 
 #
 FROM ubuntu:20.04
