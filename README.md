@@ -12,10 +12,21 @@ Version control of installed tools is a fundamental practice to establish self-c
 | Express.js    | Web application framework for Node.js |
 | TensorFlow    | Open-source machine learning      |
 
+# DevEnv Docker Container
 
-```sh
+This Docker container is designed to set up a development environment for your project. It includes the necessary tools and dependencies for development work.
+
+## Building the Docker Image
+
+To build the Docker image, use the following command:
+
+```bash
 docker build -t DevEnv .
 ```
+
+# Running the Docker Container
+
+To run the Docker container, use the following command:
 
 ```sh
 docker run -d -p 80:80 -v C:\absolut\path\till\din\kod:/app DevEnv
