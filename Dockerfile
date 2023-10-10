@@ -1,5 +1,5 @@
 #
-# Development Environment Ubuntu - NodeJS
+# Development Environment - Ubuntu & NodeJS
 # @author Philip Wingemo 
 #
 FROM ubuntu:20.04
