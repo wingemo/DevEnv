@@ -16,7 +16,7 @@ RUN apt install nodejs=18
 RUN apt install npm=10.2.0
 
 # Expose port 80
-EXPOSE 80
+EXPOSE 8080
 
 WORKDIR /app
 COPY . .
