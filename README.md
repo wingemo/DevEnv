@@ -1,11 +1,11 @@
 # DevEnv
 Version control of installed tools is a fundamental practice to establish self-contained and replicable development environments. It provides isolated and reproducible environments for your projects, enabling seamless migration of your entire setup across different machines while maintaining consistent configurations throughout all environments
-the package manager for JavaScript
+
 | Tool          | Description                       |
 | ------------- | --------------------------------- |
 | Node.js       | Server-side JavaScript runtime    |
 | swagger-codegen     | Server stubs and documentation automatically given an OpenAPI Spec |
-| NPM   | Server stubs and documentation automatically given an OpenAPI Spec.  |
+| NPM   | The package manager for JavaScript  |
 
 
 # DevEnv Docker Container
