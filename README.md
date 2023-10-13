@@ -4,7 +4,7 @@ Version control of installed tools is a fundamental practice to establish self-c
 | Tool          | Description                       |
 | ------------- | --------------------------------- |
 | Node.js       | Server-side JavaScript runtime    |
-| swagger-codegen     | Web application framework for Node.js |
+| swagger-codegen     | Server stubs and documentation automatically given an OpenAPI Spec.  |
 
 
 # DevEnv Docker Container
