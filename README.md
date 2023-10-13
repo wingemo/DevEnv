@@ -3,10 +3,9 @@ Version control of installed tools is a fundamental practice to establish self-c
 
 | Tool          | Description                       |
 | ------------- | --------------------------------- |
-
 | Node.js       | Server-side JavaScript runtime    |
-| Express.js    | Web application framework for Node.js |
-| TensorFlow    | Open-source machine learning      |
+| swagger-codegen     | Web application framework for Node.js |
+
 
 # DevEnv Docker Container
 
