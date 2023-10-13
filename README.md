@@ -3,12 +3,8 @@ Version control of installed tools is a fundamental practice to establish self-c
 
 | Tool          | Description                       |
 | ------------- | --------------------------------- |
-| Git           | Version control system            |
-| VS Code       | Cross-platform code editor        |
-| Docker        | Container management platform     |
+
 | Node.js       | Server-side JavaScript runtime    |
-| PostgreSQL    | Relational database management    |
-| React         | JavaScript library for UI         |
 | Express.js    | Web application framework for Node.js |
 | TensorFlow    | Open-source machine learning      |
 
