@@ -13,7 +13,7 @@ RUN apt-get update
 #
 # Install packages
 #
-RUN apt install nodejs=18
+RUN apt install nodejs=20.8.0
 RUN apt install npm=10.2.0
 
 #
