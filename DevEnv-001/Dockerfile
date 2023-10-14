@@ -6,20 +6,16 @@
 FROM ubuntu:20.04
 
 #
-# Update the system 
-#
-RUN apt-get update
-
-#
 # Install packages
 #
 RUN apt install nodejs=20.8.0
 RUN apt install npm=9.9.0
+RUN apt install mysql-server
 
 #
 # Set alias 
 #
-alias install='npm install'
+RUN service mysql restart
 
 #
 # Expose port 8080
